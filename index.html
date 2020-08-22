@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta charset='UTF-8'>
+	<meta name='viewport' content='width=device-width, initial-scale=1.0'>
+	<title>Specification</title>
+	<link rel='stylesheet' href='css/style.css'>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Rubik:wght@700&display=swap"
+		rel="stylesheet">
+	<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+</head>
+<body>
+	<!-- Menu -->
+	<div class="menu">
+		<div class="menu__inner">
+			<div class="menu__logo"><a href="#"><img src="Images/LogoB.png" alt=""></a></div>
+			<div class="menu__item">
+				<a href="#">
+					<img src="Images/MenuMain-Items/MenuMain-Item_1.png" alt="">
+				<div class="menu__text">
+					События
+				</div>
+				</a>
+				
+			</div>
+			<div class="menu__item">
+				<a href="#">
+					<img src="Images/MenuMain-Items/MenuMain-Item_2.png" alt="">
+					<div class="menu__text">
+						Агрегаты
+					</div>
+				</a>
+			
+			</div>
+			<div class="menu__item">
+				<a href="#">
+					<img src="Images/MenuMain-Items/MenuMain-Item_3.png" alt="">
+					<div class="menu__text">
+						Счёт на оплату
+					</div>
+				</a>
+			
+			</div>
+			<div class="menu__item">
+				<a href="#"><img src="Images/MenuMain-Items/MenuMain-Item_4.png" alt="">
+				<div class="menu__text">
+					Лицевой счёт
+				</div></a>
+			</div>
+
+			<div class="menu__item">
+				<a href="#"><img src="Images/MenuMain-Items/MenuMain-Item_5.png" alt="">
+				<div class="menu__text">
+					Спецификации
+				</div>
+				<img src="Images/Arrow.png" alt="" class="menu__arrow"></img></a>
+			
+			</div>
+			<div class="menu__item">
+				<a href="#">
+					<img src="Images/MenuMain-Items/MenuMain-Item_6.png" alt="">
+					<div class="menu__text">
+						Агрегаторы
+					</div>
+				</a>
+			
+			</div>
+			<div class="menu__item">
+				<a href="#">
+					<img src="Images/MenuMain-Items/MenuMain-Item_7.png" alt="">
+					<div class="menu__text">
+						Тарифы
+					</div>
+				</a>
+			
+			</div>
+			<div class="menu__item">
+				<a href="#">
+					<img src="Images/MenuMain-Items/MenuMain-Item_8.png" alt="">
+					<div class="menu__text">
+						Выйти
+					</div>
+				</a>
+			
+			</div>
+		</div>
+	</div>
+	<!-- Header -->
+	<header class="header">
+		<div class="container">
+			<div class="header__inner">
+				<h1>Спецификация</h1>
+				<div class="header__buttons">
+					<button class="btn btn--download"><img src="Images//Download.png" alt="Download" class="icon__download">
+					</button>
+					<button class="btn btn--create">
+						<img src="Images//Create.png" alt="" class="icon__create"></img>
+						<span>Создать</span>
+					</button>
+				</div>
+				<div class="header__search">
+					<form>
+						<input type="search" placeholder="Введите id или название спецификации">
+						<input type="submit" value="">
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- Main -->
+	<main>
+		<div class="container">
+			<table>
+				<!-- Заголовки -->
+				<tr>
+					<th class="specification__title">Название</th>
+					<th class="specification__discription">Описание</th>
+					<th class="specification__start">Начало</th>
+					<th class="specification__end">Конец</th>
+					<th class="specification__additional">Дополнительные параметры</th>
+					<th class="specification__status">Статус</th>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оплата заказа</div>
+							<div class="cell__subname">Онлайн кинотеатр</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Доставка заказа клиенту через сервис доставки</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">22:15</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">23:25</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Ресторан</div>
+						<div class="parametr parameter--add">Скидка</div>
+						<div class="parametr parameter--add">Пожелания</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--yellow">Проверка</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Отмена заказа</div>
+							<div class="cell__subname">Маркетплейс</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Отмена покупки на платформе с возвратом денежных средств</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">22:15</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">21:25</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время заказа</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Причина</div>
+						<div class="parametr parameter--add">Процент выкупа</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--yellow">Согласование</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оформление подписки</div>
+							<div class="cell__subname">Онлайн кинотеатр</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Первая оплата подписки через приложение на ТВ</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">21:14</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">22:27</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Промокод</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оплата заказа</div>
+							<div class="cell__subname">Такси</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Оплата услуг такси
+							с банковской карты</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">21:10</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">21:13</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--red">Отклонено</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оплата заказа</div>
+							<div class="cell__subname">Доставка продуктов</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Оплата заказа с включенной доставкой</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">21:05</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">21:12</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Ресторан</div>
+						<div class="parametr parameter--add">Скидка</div>
+						<div class="parametr parameter--add">Пожелания</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Отмена брони</div>
+							<div class="cell__subname">Билеты в кино</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Отмена покупки билетов без возврата денег</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">20:45</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">20:56</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Скидка</div>
+						<div class="parametr parameter--add">Пожелания</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Возврат депозита</div>
+							<div class="cell__subname">Билеты в кино</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Возврат денег за отмену брони</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">20:10</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">20:14</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Причина</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Кинотеатр</div>
+						<div class="parametr parameter--add">Скидка</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оплата заказа</div>
+							<div class="cell__subname">Маркетплейс</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Оплата заказа с доставкой
+							до пункта выдачи</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">20:01</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">20:02</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Адрес</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оплата заказа</div>
+							<div class="cell__subname">Онлайн кинотеатр</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Покупка контента, который
+							не входит в подписку</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">19:55</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">23:25</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Контент</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оплата заказа</div>
+							<div class="cell__subname">Билеты в кино</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Покупка билетов в кинотеатр</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">19:43</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">19:43</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Кинотеатр</div>
+						<div class="parametr parameter--add">Скидка</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оплата заказа</div>
+							<div class="cell__subname">Билеты в кино</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Покупка билетов в кинотеатр</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">19:43</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">19:43</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Кинотеатр</div>
+						<div class="parametr parameter--add">Скидка</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+				<tr>
+					<td class="cell__title">
+						<div class="cell__icon">
+							<img src="Images//Export.png" alt="">
+						</div>
+						<div class="cell__text">
+							<div class="cell__name cell__name--first">Оплата заказа</div>
+							<div class="cell__subname">Билеты в кино</div>
+						</div>
+					</td>
+					<td class="cell__description">
+						<div class="cell__name cell__name--second">Покупка билетов в кинотеатр</div>
+					</td>
+					<td class="cell__start">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">19:43</div>
+					</td>
+					<td class="cell__end">
+						<div class="cell__name">12.11.19</div>
+						<div class="cell__subname">19:43</div>
+					</td>
+					<td class="cell__additional">
+						<div class="parametr parameter--add">Стоимость</div>
+						<div class="parametr parameter--add">Время доставки</div>
+						<div class="parametr parameter--add">Статус клиента</div>
+						<div class="parametr parameter--add">Кинотеатр</div>
+						<div class="parametr parameter--add">Скидка</div>
+						<div class="parametr parameter--add">Кэшбек</div>
+					</td>
+					<td class="cell__status">
+						<div class="parametr parameter--green">Успешно</div>
+					</td>
+				</tr>
+	
+			</table>
+		</div>
+	</main>
+	<!-- JavaScript -->
+	<!-- <script src="js/main.js"></script> -->
+</body>
+</html>
